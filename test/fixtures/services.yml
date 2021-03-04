@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  owned_by: MyString
+  disallowed_remediation_types: MyString
+  repo: MyString
+
+two:
+  name: MyString
+  owned_by: MyString
+  disallowed_remediation_types: MyString
+  repo: MyString
