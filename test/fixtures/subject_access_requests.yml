@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  subdomain: MyString
+  action: MyString
+  subject_contact_method: MyString
+  subject_contact_data: MyString
+
+two:
+  subdomain: MyString
+  action: MyString
+  subject_contact_method: MyString
+  subject_contact_data: MyString

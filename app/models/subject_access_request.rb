@@ -1,0 +1,2 @@
+class SubjectAccessRequest < ApplicationRecord
+end
