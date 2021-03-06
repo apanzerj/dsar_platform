@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_03_04_211946) do
+ActiveRecord::Schema.define(version: 2021_03_04_212316) do
 
   create_table "entities", force: :cascade do |t|
     t.string "name"
@@ -25,6 +25,8 @@ ActiveRecord::Schema.define(version: 2021_03_04_211946) do
     t.string "repo"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "entity_id"
+    t.index ["entity_id"], name: "index_services_on_entity_id"
   end
 
   create_table "subject_access_requests", force: :cascade do |t|
@@ -34,6 +36,8 @@ ActiveRecord::Schema.define(version: 2021_03_04_211946) do
     t.string "subject_contact_data"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "entity_id"
+    t.index ["entity_id"], name: "index_subject_access_requests_on_entity_id"
   end
 
 end
